@@ -70,8 +70,6 @@ h2 {
 .webstudio {
   display: block;
   text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 /* Логотип */
@@ -155,8 +153,6 @@ h2 {
 /* Ссылки контактов */
 
 .contacts-link .link {
-  padding-top: 15px;
-  padding-bottom: 15px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -256,27 +252,21 @@ h2 {
 
 /* Преимущества */
 
-.adv-icon {
-  display: flex;
+.privilege {
   padding-top: 95px;
-  margin-bottom: 30px;
-  justify-content: center;
+  padding-bottom: 95px;
 }
 
-.adv-icon .icon {
+.advantages .icon {
   display: flex;
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
   background-color: var(--light-grey);
   border-radius: 4px;
 
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
-}
-
-.adv-icon .icon:last-child {
-  margin-right: 0;
 }
 
 .icon .adv-item {
@@ -289,8 +279,6 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  justify-content: center;
-  padding-bottom: 95px;
 }
 
 .advantages .adv-title {
@@ -316,11 +304,14 @@ h2 {
 }
 
 .advantages .description {
-  flex-basis: calc(100% / 4);
   margin-right: 30px;
 }
 
-.advantages li:last-child {
+.advantages .description:last-child {
+  margin-right: 0;
+}
+
+.advantages .text:last-child {
   margin-right: 0;
 }
 
@@ -335,6 +326,11 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-text);
+}
+
+.img-work {
+  display: block;
+  max-width: 100%;
 }
 
 .thumb-works {
@@ -398,6 +394,7 @@ h2 {
 
 .team {
   padding-bottom: 95px;
+  padding-top: 95px;
 }
 
 .team .team-list {
@@ -420,7 +417,6 @@ h2 {
 }
 
 .team-title {
-  padding-top: 95px;
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -431,9 +427,13 @@ h2 {
   color: var(--black-text);
 }
 
+.people .info-team {
+  padding: 30px 32px;
+}
+
 .team-list .list-item {
-  margin-top: 30px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   text-align: center;
@@ -444,9 +444,8 @@ h2 {
 }
 
 .prof-item {
-  margin-top: 10px;
-  margin-bottom: 0;
-  padding-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 16px;
 
   font-weight: normal;
   text-align: center;
@@ -458,9 +457,6 @@ h2 {
 
 .smm {
   display: flex;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 30px;
 }
 
 .smm .item {
@@ -500,6 +496,11 @@ h2 {
 
 /* Постоянные клиенты */
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients-title {
   font-weight: bold;
   font-size: 36px;
@@ -507,13 +508,11 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  padding-top: 95px;
   margin-bottom: 50px;
 }
 
 .client {
   display: flex;
-  padding-bottom: 95px;
 }
 
 .client .client-item {
@@ -695,12 +694,16 @@ h2 {
 
 /* Кнопки */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .btn-variants {
   display: flex;
   margin-top: 0;
   margin-bottom: 50px;
   justify-content: center;
-  padding-top: 95px;
   padding-left: 0;
 }
 
@@ -708,6 +711,7 @@ h2 {
   border-radius: 4px;
   border: 0;
   padding: 6px 22px;
+  outline: none;
 
   background-color: var(--light-grey);
   font-weight: 500;
@@ -748,7 +752,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding-bottom: 95px;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -800,6 +803,7 @@ h2 {
 
 .img {
   display: block;
+  max-width: 100%;
 }
 
 .card-overlay {
@@ -868,10 +872,11 @@ h2 {
 
 .close-button {
   position: absolute;
-  right: 13px;
-  top: 13px;
-  width: 20px;
-  height: 20px;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  outline: none;
 
   border: 0;
   background-color: var(--white);
