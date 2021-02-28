@@ -99,7 +99,9 @@ h2 {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition-property: color var(--time) var(--cubik-normal);
+  transition-property: color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 
   text-decoration: none;
   font-weight: 500;
@@ -160,7 +162,9 @@ h2 {
   text-decoration: none;
   color: var(--grey-text);
 
-  transition-property: color var(--time) var(--cubik-normal);
+  transition-property: color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .contacts-link .link:hover,
@@ -478,8 +482,9 @@ h2 {
   justify-content: center;
   align-items: center;
 
-  transition-property: background-color var(--time) var(--cubik-normal),
-    color var(--time) var(--cubik-normal);
+  transition-property: background-color, color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .smm .smm-link:hover,
@@ -534,7 +539,9 @@ h2 {
   justify-content: center;
   align-items: center;
 
-  transition-property: color var(--time) var(--cubik-normal);
+  transition-property: border, color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .client-link:hover,
@@ -605,7 +612,9 @@ h2 {
   text-decoration: none;
   color: var(--footer);
 
-  transition-property: color var(--time) var(--cubik-normal);
+  transition-property: color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .footer-link .item:first-child {
@@ -654,7 +663,9 @@ h2 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
-  transition-property: background-color var(--time) var(--cubik-normal);
+  transition-property: background-color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .join-li .join-link:hover,
@@ -721,7 +732,9 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--black-text);
 
-  transition-property: background-color var(--time) var(--cubik-normal);
+  transition-property: background-color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .list-button {
@@ -770,7 +783,9 @@ h2 {
   display: block;
   text-decoration: none;
 
-  transition-property: box-shadow var(--time) var(--cubik-normal);
+  transition-property: box-shadow;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .works-example .kinds {
